@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "reprodution_history")
 public class ReproductionHistory {
 
   @Id
